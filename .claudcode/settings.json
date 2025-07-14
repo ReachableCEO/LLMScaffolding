@@ -1,0 +1,29 @@
+{
+  "version": "1.0.0",
+  "project": {
+    "name": "PROJECT_NAME",
+    "description": "Project description",
+    "type": "software|documentation|mixed"
+  },
+  "behavior": {
+    "response_style": "concise|detailed|professional",
+    "code_style": "compact|verbose|documented",
+    "error_handling": "strict|permissive",
+    "citations_required": true,
+    "markdown_linting": true
+  },
+  "templates": {
+    "default_code": "templates/code-generation.md",
+    "default_docs": "templates/documentation.md",
+    "shell_scripts": "templates/shell-script.md"
+  },
+  "workflows": {
+    "git_commit": "workflows/git-commit.md",
+    "code_review": "workflows/code-review.md",
+    "debugging": "workflows/debugging.md"
+  },
+  "profiles": {
+    "active_profile": "profiles/charles-wyble.md",
+    "team_standards": "profiles/team-standards.md"
+  }
+}
